@@ -1,6 +1,6 @@
 header 
 {
-    background-color: #280000;
+    background-color: #280000; /*  */
     padding: 40px;/* tamanho/preenchimento do cabeçalho*/
     display: flex; /*Responsável por tornar os itens Flex e deixar lado a lado*/
     justify-content: center; /*Organização dos conteúdos dentro do Cabeçalho*/
@@ -11,12 +11,12 @@ header h1
 {
     color: white;/*SEMPRE COR DA LETRA*/
     font-size: 50px;/*SEMPRE PARA TAMANHO DE LETRAS*/
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif; /* Fonte do texto */
 }
 header i
 {
-    color: white;
-    font-size: 200px;
+    color: white; /*Cor do texto*/
+    font-size: 200px; /*Tamanho do texto*/
 }
 
 .image 
@@ -39,7 +39,7 @@ header i
 {
     color: white;
     font-size: 30px;/* Alterar o tamanho da letra */
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif; /* Fonte do texto */
 }
 .icon
 {
@@ -72,19 +72,22 @@ header i
     background-color: red;
     border-radius: 20px; /*Arredondamento do botão*/
     font-size: 30px;
+    font-family: 'Times New Roman', Times, serif; /* Fonte do texto */
 }
 .cardapio p 
 {
     color: white;
     font-size: 40px;
+    font-family: 'Times New Roman', Times, serif; /* Fonte do texto */
 }
 footer 
 {
     background-color: #a5402d;
-    padding: 30px;
+    padding: 30px; /*preenchimento da sessão*/
     color: white;
     font-size: 30px;
     text-align: center;
+    font-family: 'Times New Roman', Times, serif; /* Fonte do texto */
 }
 footer i 
 {

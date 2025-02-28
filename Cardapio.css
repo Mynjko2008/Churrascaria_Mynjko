@@ -1,0 +1,107 @@
+header
+{
+    background-color: #280000;
+    padding: 40px;/* tamanho/preenchimento do cabeçalho*/
+    display: flex; /*Responsável por tornar os itens Flex e deixar lado a lado*/
+    justify-content: center; /*Organização dos conteúdos dentro do Cabeçalho*/
+    gap: 20px; /*Espaçamento entre os elementos (h1 e img)*/
+    align-items: center; /*Alinhamento dos itens*/
+}
+header h1 
+{
+    color: white;/*SEMPRE COR DA LETRA*/
+    font-size: 50px;/*SEMPRE PARA TAMANHO DE LETRAS*/
+    font-family: 'Times New Roman', Times, serif;
+}
+header i
+{
+    color: white;
+    font-size: 200px;
+}
+.rodizio
+{
+    background-color: #47100b;
+    padding: 100px; /*preenchimento da sessão*/
+    gap: 30px; /*Espaço/respiro entre os itens*/
+}
+.rodizio h2
+{
+    color: white;
+    display: flex; /*Responsável por tornar os itens Flex e deixar lado a lado*/
+    justify-content: center; /*Organização dos conteúdos dentro do Cabeçalho*/
+    align-items: center; /*Alinhamento dos itens*/
+    font-size: 90px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.rodizio p
+{
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.rodizio button
+{
+    width: 200px; /*largura do botão*/
+    padding: 20px; /*Preenchimento do botão*/
+    color: white;
+    background-color: red;
+    border-radius: 20px; /*Arredondamento do botão*/
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.bebidas
+{
+    background-color: #672016;
+    padding: 100px; /*preenchimento da sessão*/ 
+    gap: 30px; /*Espaço/respiro entre os itens*/
+}
+.bebidas h2
+{
+    color: white;
+    display: flex; /*Responsável por tornar os itens Flex e deixar lado a lado*/
+    justify-content: center; /*Organização dos conteúdos dentro do Cabeçalho*/
+    align-items: center; /*Alinhamento dos itens*/
+    font-size: 90px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.bebidas p
+{
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.sobremesas 
+{
+    background-color: #863022;
+    padding: 100px; /*preenchimento da sessão*/
+    gap: 30px; /*Espaço/respiro entre os itens*/
+    
+}
+.sobremesas h2
+{
+    color: white;
+    display: flex; /*Responsável por tornar os itens Flex e deixar lado a lado*/
+    justify-content: center; /*Organização dos conteúdos dentro do Cabeçalho*/
+    align-items: center; /*Alinhamento dos itens*/
+    font-size: 90px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.sobremesas p 
+{ 
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+footer 
+{
+    background-color: #a5402d;
+    padding: 30px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+footer i 
+{
+    font-size: 40px;
+}
