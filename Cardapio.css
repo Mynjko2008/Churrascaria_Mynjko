@@ -101,7 +101,8 @@ footer
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
-footer i 
-{
+footer a  {
     font-size: 40px;
+    color: white;
+    text-decoration: none;
 }
